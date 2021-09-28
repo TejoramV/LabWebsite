@@ -110,28 +110,43 @@
 			<hr width="0px">
 			<hr width="0px">
 		
-			<h2>Extreme low light night time imaging</h2>
+			<h2>Pyramidal Edge-maps</h2>
 		</div>	
 		<div class="animate-box text-left">
 		
-			<p>We all love to take photographs, but low-light conditions such as night-time, pose a significant challenge in capturing good photographs. Common solutions such as flashlight, NIR and large exposure tend to cause artifacts in the captured images and moreover may not be even available. In this project we propose several methods for night-time image restoration without any additional hardware cost or manipulation. The methods are applicable for both conventional <i>DSLR</i> cameras and <i>Light Field</i> cameras.</p>
+			<p>Guided super-resolution (GSR) of thermal images using vis-
+ible range images is challenging because of the difference in the spectral-
+range between the images. This in turn means that there is signifi-
+cant texture-mismatch between the images, which manifests as blur and
+ghosting artifacts in the super-resolved thermal image. To tackle this,
+we propose a novel algorithm for GSR based on pyramidal edge-maps
+extracted from the visible image. Our proposed network has two sub-
+networks. The first sub-network super-resolves the low-resolution ther-
+mal image while the second obtains edge-maps from the visible image at
+a growing perceptual scale and integrates them into the super-resolution
+sub-network with the help of attention-based fusion. Extraction and
+integration of multi-level edges allows the super-resolution network to
+process texture-to-object level information progressively, enabling more
+straightforward identification of overlapping edges between the input im-
+ages. Extensive experiments show that our model outperforms the state-
+of-the-art GSR methods, both quantitatively and qualitatively.</p>	
 			<div id="fh5co-gallery" >
 				
 				<div class="row">
 					<div class="col-md-6 col-padded">
-						<a href="#" class="gallery" style="background-image: url(images/0.PNG);"></a>
+						<a href="#" class="gallery" style="background-image: url(images/66.PNG);"></a>
 					</div>
 					<div class="col-md-6 col-padded">
-						<a href="#" class="gallery" style="background-image: url(images/1.png);"></a>
+						<a href="#" class="gallery" style="background-image: url(images/67.png);"></a>
 					</div>
 					
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-padded">
-						<a href="#" class="gallery" style="background-image: url(images/2insta.PNG);"></a>
+						<a href="#" class="gallery" style="background-image: url(images/68.PNG);"></a>
 					</div>
 					<div class="col-md-6 col-padded">
-						<a href="#" class="gallery" style="background-image: url(images/3.PNG);"></a>
+						<a href="#" class="gallery" style="background-image: url(images/69.PNG);"></a>
 					</div>
 				</div>
 			</div>
@@ -162,13 +177,13 @@
 			
 			<h5>Publications:</h5>		
 			<ul style="list-style-type:disc">
-				<li><b>Mohit Lamba and Kaushik Mitra.</b> <i>"Restoring Extremely Dark Images in Real Time"</i>, CVPR, 2021</li>
-				<span><a href="https://mohitlamba94.github.io/Restoring-Extremely-Dark-Images-In-Real-Time/" class="btn btn-primary btn-sm btn-course">Project Website</a></span>
-				<li><b>Mohit Lamba, Kranthi Kumar Rachavarapu, Kaushik Mitra.</b> <i>"Harnessing Multi-View Perspective of Light Fields for Low-Light Imaging"</i>, IEEE Transactions on Image Processing, 2021</li>
-				<span><a href="https://mohitlamba94.github.io/L3Fnet/" class="btn btn-primary btn-sm btn-course">Project Website</a></span>
-				<li><b>Mohit Lamba, Atul Balaji, Kaushik Mitra.</b> <i>"Towards Fast and Light-Weight Restoration of Dark Images"</i>, BMVC, 2020</li>
-				<span><a href="https://mohitlamba94.github.io/LLPackNet/" class="btn btn-primary btn-sm btn-course">Project Website</a></span>
-
+				<li><b>H Gupta, K Mitra</b> <i>"Pyramidal Edge-maps and Attention based
+Guided Thermal Super-resolution"</i>, European Conference on Computer Vision, 698-715</li>
+				<span><a href="https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=cZBq_9MAAAAJ&sortby=pubdate&citation_for_view=cZBq_9MAAAAJ:lSLTfruPkqcC" class="btn btn-primary btn-sm btn-course">Project Website</a></span>
+				<li><b>H Gupta, K Mitra</b> <i>"Pyramidal Edge-maps based Guided Thermal
+Super-resolution"</i>,DeepAI</li>
+				<span><a href="https://arxiv.org/pdf/2003.06216v1.pdf" class="btn btn-primary btn-sm btn-course">Project Website</a></span>
+				
 			</ul>
 			
 		</div>
